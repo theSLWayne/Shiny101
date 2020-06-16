@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2390430534",
     "id" : "818FF765",
-    "lastKnownWriteTime" : 1592317278,
-    "last_content_update" : 1592317278,
+    "lastKnownWriteTime" : 1592321580,
+    "last_content_update" : 1592321580502,
     "path" : "/media/batman/New Volume1/Machine Learning/Projects/R/Shiny/Shiny101/Norm/ui.R",
     "project_path" : "Norm/ui.R",
     "properties" : {
-        "cursorPosition" : "9,14",
-        "scrollLine" : "0"
+        "cursorPosition" : "32,29",
+        "scrollLine" : "20"
     },
     "read_only" : false,
     "read_only_alternatives" : [
