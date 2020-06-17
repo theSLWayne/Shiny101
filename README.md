@@ -40,3 +40,15 @@ The application is capable of dynamically changing its output(i.e. The plot) wit
 4. Toggle option to hide/show the label of x axis.
 5. Toggle option to hide/show the label of y axis.
 6. Toggle option to hide/show the label of the plot.
+
+## [2. Iris K-Means Clustering](Iris_K_Means)
+
+![Screenshot is not available right now.](Images/Iris_K_Means.png)
+
+A Shiny application to plot clustering analysis done on the infamous Iris dataset.
+The application is capable of dynamically perform K-Means clustering on the Iris dataset with changing user inputs.
+There are four numerical variables in the dataset(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width) that can be used with k-means clustering.
+3 Controls are given to the user to adjust the clustering and the plot.
+1. A variable for X axis
+2. A variable for Y axis
+3. Number of clusters(Minimum of 1 and maximum of 9)
