@@ -52,3 +52,17 @@ There are four numerical variables in the dataset(Sepal.Length, Sepal.Width, Pet
 1. A variable for X axis
 2. A variable for Y axis
 3. Number of clusters(Minimum of 1 and maximum of 9)
+
+## [3. Predicting Horsepower](Predicting_Horsepower)
+
+![Screenshot is not available right now.](Images/Predicting_Horsepower.png)
+
+A Shiny application to predict Horsepower of a car's engine using its gas efficiency(miles per gas).
+The application takes a MPG value for a car and predicts its horsepower using it. 
+Trained with the native R dataset, <mark>mtcars</mark>.
+Two smodels are used for prediction. One uses only the mpg value input for prediction and the other uses a new variable(mpgsp) along with the entered mpg value. The new value is derived from the mpg. It has a breaking point at 20. <mark>mpgsp</mark> of a car that has smaller mpg than 20 will be set to 0 and a car with higher mpg than 20 will be replaced with the value of <mark> mpg of the car - 20</mark>.
+As per the output, predictions from both models will be displayed and a plot will be rendered with the current data points from <mark>mtcars</mark>, each fitted models and predicted data points from both models.
+3 controls are given to the user.
+1. A value for mpg.
+2. Option to include the fitted model for model1(Which uses only mpg).
+3. Option to include the fitted model for model2(Which uses mpg and mpgsp).
